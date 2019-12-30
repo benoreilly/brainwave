@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/nebullax.png">
   <link rel="stylesheet" href="style.css">
-  <title>Task List</title>
+  <title>Brainfood</title>
 </head>
 
 
@@ -19,7 +19,7 @@
         <div class="row">
         <div id="main" class="card">
           <div class="card-content">
-            <span class="card-title">The Nebullist
+            <span class="card-title">Brainfood
               <span class="weather-data">
                 <span id="weather-description" class="secondary-content"></span>
                 <span id="weather-temp" class="secondary-content"></span>
@@ -33,34 +33,34 @@
               <form id="task-form" autocomplete="off">
                 <div class="input-field col s12">
                   <input type="text" name='task' id='task'>
-                  <label for="task">New Task</label>
+                  <label for="task">Add some inspiration</label>
                 </div>
                   <div class="priorityCheck">
-                    <input type="checkbox" id="priCheck" class="filled-in" checkbox="checked" />
-                    <label for="priCheck">High Priority</span>
+                    <input type="checkbox" id="priCheck" checkbox="checked" />
+                    <label for="priCheck">High Significance</span>
                   </div>
               </div>
-                <input type="submit" value="Add Task" class='btn'>
+                <input type="submit" value="Submit" class='btn'>
               </form>
             </div>
           </div>
           <div class="card-action">
-            <h5 id="task-title">Your Tasks</h5>
+            <h5 id="task-title">The Words Of Awakening</h5>
             <div class="input-field col s12">
               <input type="text" name="filter" id="filter">
-              <label for="filter">Filter Tasks</label>
+              <label for="filter">Filter Text</label>
             </div>
             <ul class="collection"></ul>
-            <a href="#modal1" class="btn black modal-trigger waves-effect waves-light">Clear Tasks</a>
+            <a href="#modal1" class="btn black modal-trigger waves-effect waves-light">Clear All Entries</a>
           </div> 
           <!-- Modal Structure -->
             <div id="modal1" class="modal clearTaskModal">
               <div class="modal-content">
-                <h5 class="center-align">Clear Tasks Confirmation</h5>
-                <p class="center-align">Are you sure you want to clear out all tasks?</p>
+                <h5 class="center-align">Wait A Sec!</h5>
+                <p class="center-align">Are you sure you want to remove every one of these inspiring little messages?</p>
               </div>
               <div class="modal-footer modal-btns">
-                <a href="#!" class="modal-close clear-tasks waves-effect waves-green btn"><i class="material-icons left">delete_forever</i>Clear My Tasks</a>
+                <a href="#!" class="modal-close clear-tasks waves-effect waves-green btn"><i class="material-icons left">delete_forever</i>Clear All Entries</a>
                 <a href="#!" class="modal-close waves-effect waves-green btn"><i class="material-icons left">cancel</i>Cancel</a>
               </div>
             </div>        

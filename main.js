@@ -84,7 +84,7 @@ function getTasks(){
         // add class
         link.className = 'delete-item secondary-content';
         // add icon html
-        link.innerHTML = '<i class="material-icons">check_circle</i>';
+        link.innerHTML = '<i class="material-icons">clear</i>';
         // append the link to li
         li.appendChild(link);
         // append li to ul
@@ -129,7 +129,7 @@ function addTask(e){
         // add class
         link.className = 'delete-item secondary-content';
         // add icon html
-        link.innerHTML = '<i class="material-icons">check_circle</i>';
+        link.innerHTML = '<i class="material-icons">clear</i>';
         // append the link to li
         li.appendChild(link);
 
