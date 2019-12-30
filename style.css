@@ -9,6 +9,10 @@ mark {
   /* background: none; */
 }
 
+h5 {
+  margin-top: 2rem !important;
+}
+
 span.hightlight {
   font-weight: 600;
 }
@@ -22,6 +26,7 @@ span.hightlight {
 span.hp-Icon i.tiny {
   vertical-align: text-bottom;
   font-size: 1.2rem;
+  margin-right: 3px;
 }
 
 .card .card-content .card-title i.weatherIcon{
@@ -60,7 +65,7 @@ span.hp-Icon i.tiny {
 }
 
 .collection .taskItem.isChecked {
-  background-color: rgba(201, 68, 58, 0.5);
+  background-color: rgba(21, 101, 192, 0.5);
   font-weight: 500;
 }
 

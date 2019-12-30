@@ -68,7 +68,7 @@ function getTasks(){
             li.className = 'collection-item slideIn taskItem isChecked';
             const hpIcon = document.createElement('span');
             hpIcon.className = 'hp-Icon';
-            hpIcon.innerHTML = '<i class="tiny material-icons">priority_high</i>';
+            hpIcon.innerHTML = '<i class="tiny material-icons">star</i>';
             li.appendChild(hpIcon);
             task = task.replace('!', ''); 
         } else {
@@ -115,7 +115,7 @@ function addTask(e){
         if (checked){
             const hpIcon = document.createElement('span');
             hpIcon.className = 'hp-Icon';
-            hpIcon.innerHTML = '<i class="tiny material-icons">priority_high</i>';
+            hpIcon.innerHTML = '<i class="tiny material-icons">star</i>';
             li.appendChild(hpIcon);
         }
         // create span for text
